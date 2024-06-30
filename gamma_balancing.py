@@ -237,7 +237,7 @@ if __name__ == "__main__":
     ############ SAMPLE USAGE
     parameter_sets = [(2, 2), (3, 2), (5, 1), (9, 0.5), (7, 1), (2, 1), (3, 1), (4, 1), (3, 3)]
 
-    df = pd.read_csv("./Kaggle Dataset/Kaggle_data_preprocessed_normalized.csv")
+    df = pd.read_csv("./Kaggle Dataset/Kaggle_data_preprocessed_normalized.csv") #Replace with your dataset
     # Assumes df is already processed - contains only X and y, and is already label encoded and scaled appropriately
     target_col = "class"
     categorical_col_names = ["protocol_type", "service", "flag"]
